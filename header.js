@@ -3,7 +3,11 @@ function Header(props) {
     <>
       <header>
         <PlusMinus section="header" handle={props.handle} />
-        <div className="section">Header:{props.data.header}</div>
+
+        <em>
+          <div className="section">Header:{props.data.header}</div>
+        </em>
+
         <Data data={props.data} />
       </header>
     </>
